@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: f24d302797212e6be7385310c0f9c9b8e9337f7b
+PODS:
+  - GalleryModule (0.1.0)
+
+DEPENDENCIES:
+  - GalleryModule (from `https://github.com/RaviiOS/GalleryModule.git`)
+
+EXTERNAL SOURCES:
+  GalleryModule:
+    :git: https://github.com/RaviiOS/GalleryModule.git
+
+CHECKOUT OPTIONS:
+  GalleryModule:
+    :commit: 52a12795a28c49879496ae96e7bb6d501ad51013
+    :git: https://github.com/RaviiOS/GalleryModule.git
+
+SPEC CHECKSUMS:
+  GalleryModule: 3452e9f834beb67e340d27b7759789aa04350bba
+
+PODFILE CHECKSUM: 998dad5478f320454b0286ce3d65baee0602380c
 
 COCOAPODS: 1.10.1

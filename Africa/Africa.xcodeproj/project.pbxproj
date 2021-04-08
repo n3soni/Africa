@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,10 +13,10 @@
 		710ABF46261EDF840046B60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710ABF45261EDF840046B60B /* Assets.xcassets */; };
 		710ABF49261EDF840046B60B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710ABF47261EDF840046B60B /* LaunchScreen.storyboard */; };
 		710ABF53261EE5500046B60B /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710ABF52261EE5500046B60B /* BrowseViewController.swift */; };
-		FB261F425B08AAA0C6EBD1F2 /* Pods_Africa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D75EFB9525C60B961D8D04 /* Pods_Africa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		633FBDB3261F1F00000C4F55 /* GalleryModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GalleryModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D75EFB9525C60B961D8D04 /* Pods_Africa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Africa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		710ABF39261EDF830046B60B /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		710ABF3C261EDF830046B60B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB261F425B08AAA0C6EBD1F2 /* Pods_Africa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +84,7 @@
 		AEFDA2EC96C493F0F0FE8A52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				633FBDB3261F1F00000C4F55 /* GalleryModule.framework */,
 				68D75EFB9525C60B961D8D04 /* Pods_Africa.framework */,
 			);
 			name = Frameworks;
@@ -110,6 +110,7 @@
 				710ABF35261EDF830046B60B /* Sources */,
 				710ABF36261EDF830046B60B /* Frameworks */,
 				710ABF37261EDF830046B60B /* Resources */,
+				9DF643A04AB2B638322302A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,6 +187,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DF643A04AB2B638322302A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Africa/Pods-Africa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Africa/Pods-Africa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Africa/Pods-Africa-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -347,6 +365,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Africa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -366,6 +385,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Africa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

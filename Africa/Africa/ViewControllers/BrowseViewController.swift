@@ -6,12 +6,14 @@
 //
 
 import UIKit
+import GalleryModule
 
 class BrowseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let logger = Logger()
+        logger.sayHello(name: "Ravi")
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor.blue
     }
