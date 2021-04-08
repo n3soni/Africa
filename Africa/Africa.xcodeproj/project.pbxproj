@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,6 @@
 		710ABF44261EDF830046B60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710ABF42261EDF830046B60B /* Main.storyboard */; };
 		710ABF46261EDF840046B60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710ABF45261EDF840046B60B /* Assets.xcassets */; };
 		710ABF49261EDF840046B60B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710ABF47261EDF840046B60B /* LaunchScreen.storyboard */; };
-		710ABF53261EE5500046B60B /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710ABF52261EE5500046B60B /* BrowseViewController.swift */; };
 		FB261F425B08AAA0C6EBD1F2 /* Pods_Africa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D75EFB9525C60B961D8D04 /* Pods_Africa.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 		710ABF45261EDF840046B60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		710ABF48261EDF840046B60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		710ABF4A261EDF840046B60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		710ABF52261EE5500046B60B /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
 		9308CCD2E10A2A27FE2EF65E /* Pods-Africa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Africa.debug.xcconfig"; path = "Target Support Files/Pods-Africa/Pods-Africa.debug.xcconfig"; sourceTree = "<group>"; };
 		F5CE509A001D980D7C747A07 /* Pods-Africa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Africa.release.xcconfig"; path = "Target Support Files/Pods-Africa/Pods-Africa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +75,6 @@
 		710ABF51261EE52E0046B60B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				710ABF52261EE5500046B60B /* BrowseViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -110,6 +107,7 @@
 				710ABF35261EDF830046B60B /* Sources */,
 				710ABF36261EDF830046B60B /* Frameworks */,
 				710ABF37261EDF830046B60B /* Resources */,
+				61BC0BA99C83CAF327DC0049 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,6 +164,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		61BC0BA99C83CAF327DC0049 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Africa/Pods-Africa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Africa/Pods-Africa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Africa/Pods-Africa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6F30466C38E9AEF3D60A09BC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -196,7 +211,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				710ABF3D261EDF830046B60B /* AppDelegate.swift in Sources */,
-				710ABF53261EE5500046B60B /* BrowseViewController.swift in Sources */,
 				710ABF3F261EDF830046B60B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
