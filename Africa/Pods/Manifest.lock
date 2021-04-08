@@ -3,12 +3,12 @@ PODS:
   - GalleryModule (0.1.0)
 
 DEPENDENCIES:
-  - Browse (from `../../BrowseSafari/Browse`)
+  - Browse (from `../../Browse`)
   - GalleryModule (from `../../GalleryModule`)
 
 EXTERNAL SOURCES:
   Browse:
-    :path: "../../BrowseSafari/Browse"
+    :path: "../../Browse"
   GalleryModule:
     :path: "../../GalleryModule"
 
@@ -16,6 +16,6 @@ SPEC CHECKSUMS:
   Browse: d71a2465e8a8ca67e48dc7fad04000f46b4e0cad
   GalleryModule: 3452e9f834beb67e340d27b7759789aa04350bba
 
-PODFILE CHECKSUM: 106e1984947855173eacf07ee2ec340c26c9e6d3
+PODFILE CHECKSUM: 4202b062233d002aa6b108602a560447dfea0e23
 
 COCOAPODS: 1.10.1

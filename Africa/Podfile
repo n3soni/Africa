@@ -7,5 +7,5 @@ target 'Africa' do
 
   # Pods for Africa
   pod 'GalleryModule', :path => '../../GalleryModule'
-  pod 'Browse', :path => '../../BrowseSafari/Browse'
+  pod 'Browse', :path => '../../Browse'
 end
