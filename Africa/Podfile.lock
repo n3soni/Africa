@@ -4,25 +4,17 @@ PODS:
 
 DEPENDENCIES:
   - BrowseModule
-  - GalleryModule (from `https://github.com/RaviiOS/GalleryModule.git`)
+  - GalleryModule
 
 SPEC REPOS:
   trunk:
     - BrowseModule
-
-EXTERNAL SOURCES:
-  GalleryModule:
-    :git: https://github.com/RaviiOS/GalleryModule.git
-
-CHECKOUT OPTIONS:
-  GalleryModule:
-    :commit: b648db9952fd6c07de15a33addc750c10f53d2bb
-    :git: https://github.com/RaviiOS/GalleryModule.git
+    - GalleryModule
 
 SPEC CHECKSUMS:
   BrowseModule: 3070ab25b6bab9e4418522caade5d40e8e296b37
-  GalleryModule: de0f97cbd125b1bc82aa0754c9ac04efa564e9b4
+  GalleryModule: 3452e9f834beb67e340d27b7759789aa04350bba
 
-PODFILE CHECKSUM: 1828dce1e8f4a2ad2d8df9dc38a039de14495e59
+PODFILE CHECKSUM: 1bb1d8bd3237f8d2c1e06242ac4f06502f61acaf
 
 COCOAPODS: 1.10.1

@@ -6,7 +6,7 @@ target 'Africa' do
   use_frameworks!
 
   # Pods for Africa
-  pod 'GalleryModule', :git => "https://github.com/RaviiOS/GalleryModule.git"
+  pod 'GalleryModule'
   pod 'BrowseModule'
 
 end
