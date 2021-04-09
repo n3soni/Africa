@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   GalleryModule:
-    :commit: 7f3bc474e4773d3eab9fa2f6321c4fe28207c960
+    :commit: b648db9952fd6c07de15a33addc750c10f53d2bb
     :git: https://github.com/RaviiOS/GalleryModule.git
 
 SPEC CHECKSUMS:
