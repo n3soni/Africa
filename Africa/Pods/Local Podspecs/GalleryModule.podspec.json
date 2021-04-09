@@ -17,8 +17,21 @@
   },
   "swift_versions": "5.0",
   "platforms": {
-    "ios": "9.0"
+    "ios": "13.0"
   },
-  "source_files": "GalleryModule/Classes/**/*",
+  "source_files": "GalleryModule/Classes/**/*.{swift,h,m}",
+  "resource_bundles": {
+    "GalleryModule": [
+      "GalleryModule/Assets/**/*.{otf,ttf,storyboard,xib,xcassets,json,imageset,png}"
+    ]
+  },
+  "testspecs": [
+    {
+      "name": "UnitTests",
+      "test_type": "unit",
+      "source_files": "GalleryModule/Tests/UnitTests/**/*.swift",
+      "resources": "GalleryModule/Tests/UnitTests/**/*.{plist,json,bundle}"
+    }
+  ],
   "swift_version": "5.0"
 }

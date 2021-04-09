@@ -1,0 +1,6 @@
+framework module BrowseModule {
+  umbrella header "BrowseModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B894C06CEBF7F4D087618C4 /* Pods_Africa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599AD4C4E5CEF121707ACCFE /* Pods_Africa.framework */; };
 		710ABF3D261EDF830046B60B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710ABF3C261EDF830046B60B /* AppDelegate.swift */; };
 		710ABF3F261EDF830046B60B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710ABF3E261EDF830046B60B /* SceneDelegate.swift */; };
 		710ABF44261EDF830046B60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710ABF42261EDF830046B60B /* Main.storyboard */; };
@@ -16,8 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		599AD4C4E5CEF121707ACCFE /* Pods_Africa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Africa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		633FBDB3261F1F00000C4F55 /* GalleryModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GalleryModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68D75EFB9525C60B961D8D04 /* Pods_Africa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Africa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68515E9EE3AB6B8B822475C0 /* Pods-Africa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Africa.debug.xcconfig"; path = "Target Support Files/Pods-Africa/Pods-Africa.debug.xcconfig"; sourceTree = "<group>"; };
 		710ABF39261EDF830046B60B /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		710ABF3C261EDF830046B60B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		710ABF3E261EDF830046B60B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +28,7 @@
 		710ABF48261EDF840046B60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		710ABF4A261EDF840046B60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		710ABF52261EE5500046B60B /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
-		9308CCD2E10A2A27FE2EF65E /* Pods-Africa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Africa.debug.xcconfig"; path = "Target Support Files/Pods-Africa/Pods-Africa.debug.xcconfig"; sourceTree = "<group>"; };
-		F5CE509A001D980D7C747A07 /* Pods-Africa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Africa.release.xcconfig"; path = "Target Support Files/Pods-Africa/Pods-Africa.release.xcconfig"; sourceTree = "<group>"; };
+		BDBBA563386EFF65454688FF /* Pods-Africa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Africa.release.xcconfig"; path = "Target Support Files/Pods-Africa/Pods-Africa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B894C06CEBF7F4D087618C4 /* Pods_Africa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				633FBDB3261F1F00000C4F55 /* GalleryModule.framework */,
-				68D75EFB9525C60B961D8D04 /* Pods_Africa.framework */,
+				599AD4C4E5CEF121707ACCFE /* Pods_Africa.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -93,8 +95,8 @@
 		CF1FE9D365DA7F619D98D9AD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9308CCD2E10A2A27FE2EF65E /* Pods-Africa.debug.xcconfig */,
-				F5CE509A001D980D7C747A07 /* Pods-Africa.release.xcconfig */,
+				68515E9EE3AB6B8B822475C0 /* Pods-Africa.debug.xcconfig */,
+				BDBBA563386EFF65454688FF /* Pods-Africa.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -106,11 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 710ABF4D261EDF840046B60B /* Build configuration list for PBXNativeTarget "Africa" */;
 			buildPhases = (
-				6F30466C38E9AEF3D60A09BC /* [CP] Check Pods Manifest.lock */,
+				88ED01416AB9417B559F24E6 /* [CP] Check Pods Manifest.lock */,
 				710ABF35261EDF830046B60B /* Sources */,
 				710ABF36261EDF830046B60B /* Frameworks */,
 				710ABF37261EDF830046B60B /* Resources */,
-				9DF643A04AB2B638322302A0 /* [CP] Embed Pods Frameworks */,
+				1A3FB1F827C8271F6FAA3C97 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,7 +169,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6F30466C38E9AEF3D60A09BC /* [CP] Check Pods Manifest.lock */ = {
+		1A3FB1F827C8271F6FAA3C97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Africa/Pods-Africa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Africa/Pods-Africa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Africa/Pods-Africa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88ED01416AB9417B559F24E6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -187,23 +206,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9DF643A04AB2B638322302A0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Africa/Pods-Africa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Africa/Pods-Africa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Africa/Pods-Africa-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -359,13 +361,13 @@
 		};
 		710ABF4E261EDF840046B60B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9308CCD2E10A2A27FE2EF65E /* Pods-Africa.debug.xcconfig */;
+			baseConfigurationReference = 68515E9EE3AB6B8B822475C0 /* Pods-Africa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Africa/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,13 +381,13 @@
 		};
 		710ABF4F261EDF840046B60B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5CE509A001D980D7C747A07 /* Pods-Africa.release.xcconfig */;
+			baseConfigurationReference = BDBBA563386EFF65454688FF /* Pods-Africa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Africa/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
