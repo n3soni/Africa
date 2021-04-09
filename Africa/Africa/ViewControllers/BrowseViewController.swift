@@ -7,6 +7,7 @@
 
 import UIKit
 import GalleryModule
+import BrowseModule
 
 class BrowseViewController: UIViewController {
 
@@ -14,8 +15,13 @@ class BrowseViewController: UIViewController {
         super.viewDidLoad()
         let logger = Logger()
         logger.sayHello(name: "Ravi")
+        checkIfBrowserModuleAccessible()
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor.blue
+    }
+    
+    func checkIfBrowserModuleAccessible() {
+        Validator.whereAreYou()
     }
     
 
